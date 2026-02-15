@@ -1,0 +1,10 @@
+[package]
+name = "is-mvis-bindings"
+version = "0.1.0"
+edition = "2021"
+license = "MPL-2.0"
+description = "Rust bindings for IS-MVIS Forth interpreter"
+
+[dependencies]
+# Минимальные зависимости — только для FFI
+libc = "0.2"
